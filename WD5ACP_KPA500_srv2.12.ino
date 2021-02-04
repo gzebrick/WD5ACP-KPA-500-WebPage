@@ -451,7 +451,7 @@ void loop() { //--------------------------------------------- Main Loop --------
 
             // Web Page Heading
             client.println("<body><h1>WD5ACP Elecraft KPA500 <> WebServer Ver " + CodeVersion + "</h1>");  // Here's the version number ........................................
-            client.println("<p> Sreen updates every 5 seconds. Operate command clears peak hold </p>");
+            client.println("<p> Screen updates every 5 seconds. Operate command clears peak hold </p>");
 
             if (AmpConnect.indexOf("NOT") > 0) {
               client.print("<span style=background-color:yellow>");
