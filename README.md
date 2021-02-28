@@ -12,6 +12,8 @@ The only technical issue I've run into is upon program reset, the Arduino code t
 
 In the spirit of HAM radio- this code is free. 73s. Be nice.
 
+Here's the WeMos Arduino with WiFi I used for this project:
+https://smile.amazon.com/WOWOONE-Arduino-ESP8266-Development-Compatible/dp/B0899N647N/ref=sr_1_10?crid=ZNNA6WNVY0KI&dchild=1&keywords=wemos+d1&qid=1614532664&s=electronics&sprefix=WeMos%2Celectronics%2C212&sr=1-10
 Here's a link to the TTl-232 board I purchased (A 5-pack) 
 https://smile.amazon.com/gp/product/B07Z5Y1WKX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 
