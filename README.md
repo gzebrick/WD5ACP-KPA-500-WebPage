@@ -11,3 +11,7 @@ The serial poll/response rate is slow, so don't expect real-time data (I do capt
 The only technical issue I've run into is upon program reset, the Arduino code transmits garbage out of the serial port. If the amplifier has MAINs power ON, and the garbage string includes the "D" character, the amplifier gets stuck in a firmware Download mode. Electraft makes it WAY TOO EASY for this to happen, so as a standard operating procedure, I recommend you power up this Arduino FIRST, wait 5 seconds, before applying MAINs power to the amp. Reverse on power shutdown.
 
 In the spirit of HAM radio- this code is free. 73s. Be nice.
+
+Here's a link to the TTl-232 board I purchased (A 5-pack) 
+https://smile.amazon.com/gp/product/B07Z5Y1WKX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+
