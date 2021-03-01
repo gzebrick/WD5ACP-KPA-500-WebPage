@@ -17,6 +17,8 @@ https://smile.amazon.com/WOWOONE-Arduino-ESP8266-Development-Compatible/dp/B0899
 Here's a link to the TTl-232 board I purchased (A 5-pack) 
 https://smile.amazon.com/gp/product/B07Z5Y1WKX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 
+Release 3.01 includes delayed output on pin that may be used to power up serial port
+
 
 Finally, my windows 10 laptop lost the driver for the USB port (driver not found). I had to plugged it in first and installed the driver from this website:
 http://www.wch.cn/download/CH341SER_ZIP.html
