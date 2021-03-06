@@ -1,11 +1,18 @@
-This project was started for use in ham shacks where the mains power to the amplifier (120v/240v) is switched OFF and ON. By design, when MAINs power is applied to the amp (by a separate remote command power switch - Alexa?") , Elecraft designed the amp so it still requires a separate power on command from the physical power button to operate. That's hard to do when you're hundreds of miles away. Alternatively the amp does accept a POWER ON command via it's serial port. The design goal for this project is to make a low-cost web/serial interface to allow the power to be turned on remotely.
+This project was started for use in ham shacks where the mains power to the amplifier (120v/240v) is switched OFF and ON. By design, when MAINs power is applied to the amp (by a separate remote command power switch - Alexa?") , Elecraft designed the amp so it still requires a separate power on command from the physical power button to operate. That's hard to do when you're hundreds of miles away. Alternatively the amp does accept a POWER ON command via it's serial port. The initial design goal for this project was  to make a low-cost web/serial interface to allow the power to be turned on remotely.
 
-This project is the Arduino code for a low cost all-in-one Arduino ESP8266 WiFi board. It provides a simple text-based web server interface for the amateur radio Elecraft KPA-500 amplifier. The amplifier has an RS-232 DB-9 serial port and accepts simple ASCII strings for monitoring and command. You'll need to purchase a TTL-232 adapter, and the appropriate cables.
+The webpage is accessed on your LAN by typing either the IP address direct into your browser, or alternatively, the host name followed by .local   
+For example (your IP and host name may be different):
 
-The web interface displays amplifier status, band information, fault codes with description and other generic data. The web interface allows power on/off command, minimum fan speed command, and fault reset.
+http://192.168.1.37
+or 
+http://kpa500.local 
+
+This project is the Arduino code for a low cost all-in-one Arduino ESP8266 WiFi board. It provides a simple text-based web server interface for the amateur radio Elecraft KPA-500 amplifier. The kpa500  amplifier has an RS-232 DB-9 serial port and accepts simple ASCII strings for monitoring and command. You'll need to purchase a TTL-232 adapter, and the appropriate cables for yoru Arduino board to get a standard RS-232 port.
+
+The web server interface displays amplifier status, band information, fault codes with description and other generic data. The web interface allows power on/off command, minimum fan speed command, and fault reset.
 
 Some notes re: version 4.01...
-This version uses the USB Serial port to prompt for new WiFi SSID, then password, then Host Name. 
+This version uses the USB Serial port to prompt for new WiFi SSID, then password, then Host Name. Once set it is stored in EEPROM memory and is remembered.
 
 Host name access only works sometimes for my home LAN. You may need to reserved the IP in your LAN DHCP so it doesn't change
 and just use the IP address to access the web server.
