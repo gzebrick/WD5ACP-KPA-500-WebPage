@@ -20,9 +20,8 @@ Follow the prompts. The serial USB port is 115,200 baud 8,N,1.
 
 The serial poll/response rate is slow, so don't expect real-time data (I do capture max power out and max SWR).
 
-The only technical issue I've run into is upon program reset, the Arduino code transmits garbage out of the serial port. If the amplifier has MAINs power ON, and the garbage string includes the "D" character, the amplifier gets stuck in a firmware Download mode. Electraft makes it WAY TOO EASY for this to happen, so as a standard operating procedure, I recommend you power up this Arduino FIRST, wait 5 seconds, before applying MAINs power to the amp. Reverse on power shutdown.
-
-Note - version Release 3.01 includes delayed output on an I/O pin that may be used to power up serial port as an option instead of powering the serial 232 board off the standard 5v pin.
+The only technical issue I've run into is upon program reset, the Arduino code transmits garbage out of the serial port. If the amplifier has MAINs power ON, and the garbage string includes the "D" character, the amplifier gets stuck in a firmware Download mode. Electraft makes it WAY TOO EASY for this to happen, so as a standard operating procedure, I recommend you power up this Arduino FIRST, wait 5 seconds, before applying MAINs power to the amp. Reverse on power shutdown....BUT....
+Starting with version Release 3.01 the code includes delayed 5v output on an I/O pin that may be used to power up serial port as an option instead of powering the serial 232 board off the standard 5v pin. IF you power up the RS-232 board off this pin, the delay is enough (I hope) to eliminate the issue of the serial startup garbage putting the amp into the Download mode. 
 
 In the spirit of HAM radio- this code is free. 73s. Be nice.
 
