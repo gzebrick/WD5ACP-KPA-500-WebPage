@@ -37,9 +37,11 @@ In the spirit of HAM radio- this code is free. 73s. Be nice.
 
 Here's the WeMos Arduino with WiFi I used for this project:
 https://smile.amazon.com/WOWOONE-Arduino-ESP8266-Development-Compatible/dp/B0899N647N/ref=sr_1_10?crid=ZNNA6WNVY0KI&dchild=1&keywords=wemos+d1&qid=1614532664&s=electronics&sprefix=WeMos%2Celectronics%2C212&sr=1-10
+
 Here's a link to the TTl-232 board I purchased (A 5-pack) 
 https://smile.amazon.com/gp/product/B07Z5Y1WKX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 
+Here's a link to a 3D printed case on Tinkercad. I modified a Ardiono case to add room for the 232 board... https://www.tinkercad.com/things/lAU7GRIQzDG-wemos-d1-w-232-v4
 
 Finally, my windows 10 laptop lost the driver for the USB port (driver not found). I had to plugged it in first and installed the driver from this website:
 http://www.wch.cn/download/CH341SER_ZIP.html
