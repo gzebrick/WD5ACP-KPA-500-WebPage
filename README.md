@@ -4,7 +4,19 @@ This project is the Arduino code for a low cost all-in-one Arduino ESP8266 WiFi 
 
 The web interface displays amplifier status, band information, fault codes with description and other generic data. The web interface allows power on/off command, minimum fan speed command, and fault reset.
 
-The initial release of this program has the WiFi SSID and password hard-coded in it. There's also NO USER LOGIN or security. I believe that a best practice is to remotely connect via a VPN which has its own security features to this simple program.
+Some notes re: version 4.01...
+This version uses the USB Serial port to prompt for new WiFi SSID, then password, then Host Name. 
+
+Host name access only works sometimes for my home LAN. You may need to reserved the IP in your LAN DHCP so it doesn't change
+and just use the IP address to access the web server.
+
+There's a 12-second countdown once the serial port is plugged in and the board powers up, 
+Followed by a  10-second window to start entering a new WiFi SSID. 
+If there is a new entry, the data is stored in EEPROM and the board reboots.
+If there's no entry within 10 seconds, the boot-up continues, loading the existing infor off the EEPROM.
+
+I had luck using the Serial port built into the Arduino programming tool, but PUTTY won't seem to work right. Not sure why.
+Follow the prompts. The serial USB port is 115,200 baud 8,N,1.
 
 The serial poll/response rate is slow, so don't expect real-time data (I do capture max power out and max SWR).
 
