@@ -1,4 +1,5 @@
- LOOK FOR THE LATEST RELEASE ON THE RIGHT SIDE OF THE SCREEN >>>>>>>>>>>>>>>>>>>>> 
+ LOOK FOR THE LATEST RELEASE ON THE RIGHT SIDE OF THE SCREEN UNDER 
+Releases" >>>>>>>>>>>>>>>>>>>>> 
  
  New! read below for link to 3D case modified for WeMos + 232 board!
 
