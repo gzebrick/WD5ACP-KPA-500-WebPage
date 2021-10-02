@@ -1,4 +1,5 @@
  LOOK FOR THE LATEST RELEASE ON THE RIGHT SIDE OF THE SCREEN UNDER 
+ 
  DONT USE rev 7.05 NOR enable the FAN MIN AUTO feature as it may (over much time) damange the memory chip in the amp. Waiting for word from elecraft.
  
 Releases" >>>>>>>>>>>>>>>>>>>>> 
