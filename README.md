@@ -1,9 +1,7 @@
- LOOK FOR THE LATEST RELEASE ON THE RIGHT SIDE OF THE SCREEN UNDER 
+ LOOK FOR THE LATEST RELEASE ON THE RIGHT SIDE OF THE SCREEN UNDER RELEASES >>>>>>>
  
  DONT USE rev 7.05 NOR enable the FAN MIN AUTO feature as it may (over much time) damange the memory chip in the amp. Waiting for word from elecraft.
- 
-Releases" >>>>>>>>>>>>>>>>>>>>> 
- 
+  
  New! read below for link to 3D case modified for WeMos + 232 board!
 
 This project was started for use in ham shacks where the mains power to the amplifier (120v/240v) is switched OFF and ON. By design, when MAINs power is applied to the amp (by a separate remote command power switch - Alexa?") , Elecraft designed the amp so it still requires a separate power on command from the physical power button to operate. That's hard to do when you're hundreds of miles away. Alternatively the amp does accept a POWER ON command via it's serial port. The initial design goal for this project was  to make a low-cost web/serial interface to allow the power to be turned on remotely.
