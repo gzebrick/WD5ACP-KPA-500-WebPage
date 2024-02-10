@@ -3,6 +3,8 @@
  DONT USE rev 7.05 NOR enable the FAN MIN AUTO feature as it may (over much time) damange the memory chip in the amp. Waiting for word from elecraft.
   
  New! read below for link to 3D case modified for WeMos + 232 board!
+ Also, I've got a version for a cheap ESP-12 board that includes a small color 1.44 display screen! Less than $10
+ https://www.amazon.com/dp/B0BC2XQC1S?ref=ppx_yo2ov_dt_b_product_details&th=1
 
 This project was started for use in ham shacks where the mains power to the amplifier (120v/240v) is switched OFF and ON. By design, when MAINs power is applied to the amp (by a separate remote command power switch - Alexa?") , Elecraft designed the amp so it still requires a separate power on command from the physical power button to operate. That's hard to do when you're hundreds of miles away. Alternatively the amp does accept a POWER ON command via it's serial port. The initial design goal for this project was  to make a low-cost web/serial interface to allow the power to be turned on remotely.
 
@@ -45,6 +47,8 @@ Here's a link to the TTl-232 board I purchased (A 5-pack)
 https://smile.amazon.com/gp/product/B07Z5Y1WKX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 
 Here's a link to a 3D printed case on Tinkercad. I modified a Arduino case to add room for the 232 board... https://www.tinkercad.com/things/lAU7GRIQzDG-wemos-d1-w-232-v4
+this one is for the cheap ESP-12 board + 1.44" display + 232 board...
+https://www.tinkercad.com/things/bExwX6tGPrD-kpa500svrv9
 
 Finally, my windows 10 laptop lost the driver for the USB port (driver not found). I had to plugged it in first and installed the driver from this website:
 http://www.wch.cn/download/CH341SER_ZIP.html
